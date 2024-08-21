@@ -10,9 +10,6 @@
 [Ll]ogs
 [Mm]emoryCaptures
 
-git rm -rf --cached .
-git add .
-
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -57,7 +54,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-
 
 # Crashlytics generated file
 crashlytics-build.properties
