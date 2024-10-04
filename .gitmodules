@@ -1,3 +1,6 @@
 [submodule "scripts"]
 	path = scripts
 	url = https://github.com/kodielk/scripts
+[submodule "ArtisanDream.Tools"]
+	path = ArtisanDream.Tools
+	url = https://github.com/kodielk/ArtisanDream.Tools
