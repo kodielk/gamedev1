@@ -1215,6 +1215,7 @@ GameObject:
   - component: {fileID: 1826324492}
   - component: {fileID: 1826324497}
   - component: {fileID: 1826324498}
+  - component: {fileID: 1826324499}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1331,7 +1332,7 @@ Transform:
   m_GameObject: {fileID: 1826324490}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.385, y: 0.736, z: 4.986}
+  m_LocalPosition: {x: -3.925, y: 0.736, z: 4.986}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1379,6 +1380,30 @@ MonoBehaviour:
   jumpForce: 1
   gravity: -9.81
   maxJumps: 2
+--- !u!114 &1826324499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826324490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba0be34640d22a4794dcbd16c712456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedObject: {fileID: 1826324496}
+  trackedPosition: {x: 0, y: 0, z: 0}
+  thresholdDistance: 1
+  withinRangeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  outOfRangeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  delayedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2027036834
 MonoBehaviour:
   m_ObjectHideFlags: 0
