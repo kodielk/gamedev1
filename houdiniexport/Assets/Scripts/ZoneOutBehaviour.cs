@@ -43,7 +43,7 @@ public class ZoneOutBehaviour : MonoBehaviour
         }
 
         // Check if the target object has reached or surpassed the target Y position
-        if (targetObject.position.y >= targetY && !yEventTriggered)
+        if (targetObject.position.y >= targetY.Value && !yEventTriggered)
         {
             yThresholdEvent.Invoke();
             yEventTriggered = true; // Ensure the event only triggers once
